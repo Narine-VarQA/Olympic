@@ -1,0 +1,240 @@
+   body {
+       margin: 0;
+       padding: 0;
+   }
+   
+   .wrapper {
+       width: 1000px;
+       margin: 0 auto;
+   }
+   
+   .header {
+       width: 979px;
+       height: 80px;
+       background-color: red;
+       margin: 0 auto;
+       padding: 10px;
+   }
+   
+   .nav {
+       width: 700px;
+       height: 70px;
+       margin: 0 auto;
+   }
+   
+   .list {
+       width: 640px;
+       height: 70px;
+       margin 30px;
+   }
+   
+   li {
+       float: left;
+       margin-left: 30px;
+       padding: 15px;
+       border-radius: 50px;
+   }
+   
+   a {
+       text-decoration: none;
+       color: white;
+       font-size: 16px;
+       font-family: sans-serif;
+       font-weight: lighter;
+   }
+   
+   li {
+       list-style: none;
+       background-color: yellowgreen;
+   }
+   
+   li:hover {
+       background-color: rosybrown;
+   }
+   
+   .container_1 {
+       width: 980px;
+       height: 375px;
+       margin: 0 auto;
+       background-color: #cf1d17;
+       padding: 10px;
+   }
+   
+   .article_1 {
+       width: 680px;
+       margin: 0 auto;
+   }
+   
+   .title_1 {
+       text-align: center;
+       font-size: 40px;
+       font-family: 'Dancing Script', cursive;
+       text-shadow: -2px 5px red;
+       color: lightgreen;
+       font-style: inherit;
+   }
+   
+   h3 {
+       text-align: center;
+       font-family: 'Snell Roundhand', cursive;
+       font-size: 18px;
+       color: white;
+   }
+   
+   .photo {
+       width: 680px;
+       height: 200px;
+       margin-left: 150px;
+   }
+   
+   .weightlifting {
+       width: 300px;
+       height: 200px;
+       margin-left: 104px;
+   }
+   
+   .back {
+       width: 89px;
+       height: 109px;
+       margin-left: 2px;
+       padding-right: 5px;
+       padding-bottom: 36px;
+   }
+   
+   .next {
+       width: 89px;
+       height: 109px;
+       margin-left: 80px;
+       padding-bottom: 36px;
+   }
+   
+   .back:hover {
+       background-color: rgb(214, 28, 59);
+       cursor: pointer;
+   }
+   
+   .next:hover {
+       background-color: rgb(214, 28, 59);
+       cursor: pointer;
+   }
+   
+   .container_2 {
+       width: 980px;
+       margin: 0 auto;
+       background-color: green;
+       padding: 10px;
+   }
+   
+   .article_2 {
+       width: 640px;
+       margin: 0 auto;
+   }
+   
+   .title_2 {
+       text-align: center;
+       font-family: 'Lemonada', cursive;
+       text-shadow: 2px 5px green;
+       color: #d9ced0;
+       font-size: 35px;
+       font-weight: 100px;
+   }
+   
+   h5 {
+       text-align: center;
+       color: black;
+       font-size: 18px;
+   }
+   
+   .photo_1 {
+       width: 985px;
+       height: 200px;
+       margin: 0 auto;
+   }
+   
+   .img_1 {
+       width: 150px;
+       height: 200px;
+       float: left;
+       margin-left: 55px;
+       padding-left: 20px;
+       position: relative;
+   }
+   
+   .img_2 {
+       width: 150px;
+       height: 200px;
+       position: absolute;
+       border-radius: 50%;
+   }
+   
+   .title_3 {
+       width: 985px;
+       height: 240px;
+   }
+   
+   .description {
+       width: 157px;
+       height: 100px;
+       margin-left: 60px;
+       float: left;
+   }
+   
+   .name {
+       text-align: center;
+       font-size: 15px;
+       color: goldenrod;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bolder;
+   }
+   
+   span {
+       margin-left: 20px;
+       font-style: italic;
+       font-size: 18px;
+       color: lightcoral;
+   }
+   
+   .footer {
+       width: 1000px;
+       height: 80px;
+       margin: 0 auto;
+       background-color: black;
+   }
+   
+   .footer_title {
+       width: 300px;
+       float: left;
+       margin-left: 80px;
+   }
+   
+   .logo {
+       text-align: center;
+       font-size: 15px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-style: italic;
+       font-weight: bolder;
+       color: white;
+   }
+   
+   .footer_logo {
+       width: 300px;
+       float: right;
+   }
+   
+   .logo_social {
+       font-size: 50px;
+   }
+   
+   .social_logo {
+       width: 20px;
+       height: 30px;
+       margin-top: 10px;
+       margin-left: 10px;
+   }
+   
+   .local {
+       width: 993px;
+       height: 200px;
+       margin: 0 auto;
+       padding: 3px;
+   }
