@@ -55,14 +55,15 @@
    .container_1 {
        width: 980px;
        height: 375px;
-       margin: 0 auto;
        background-color: #cf1d17;
        padding: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
    }
    
    .article_1 {
        width: 680px;
-       margin: 0 auto;
    }
    
    .title_1 {
@@ -81,31 +82,32 @@
        color: white;
    }
    
-   .photo {
-       width: 680px;
+   #photo {
+       width: 100%;
        height: 200px;
-       margin-left: 150px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
    }
    
    .weightlifting {
        width: 300px;
        height: 200px;
-       margin-left: 104px;
    }
    
    .back {
        width: 89px;
        height: 109px;
-       margin-left: 2px;
-       padding-right: 5px;
-       padding-bottom: 36px;
+       position: absolute;
+       left: 25%;
    }
    
    .next {
        width: 89px;
        height: 109px;
-       margin-left: 80px;
-       padding-bottom: 36px;
+       position: absolute;
+       right: 25%;
    }
    
    .back:hover {
